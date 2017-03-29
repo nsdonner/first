@@ -17,6 +17,14 @@
     background-color: #abeafa;
 }
 
+.reg .header{
+    height: 350px;
+    width: 1500px;
+    background-color: #abeafa;
+}
+
+
+
 .logo {
     background-image: url("../img/logo.png");
     float: left;
@@ -151,6 +159,7 @@
     }
 
 .fsocial{
+    clear: both;
     margin: 0 auto;
     width: 1170px;
     height: 500px;
@@ -427,6 +436,9 @@ p.about a{
     line-height:160px;
 }
 
+.reg .content{
+    margin-top: 0;
+}
 
 .content {
     width: 870px;
@@ -449,7 +461,7 @@ p.about a{
 
 
 .good{
-    width: 172px;
+    width: 160px;
     font-family: Roboto;
     color:  #333333;
     font-size: 14px;
@@ -462,7 +474,7 @@ p.about a{
     padding-top: 10px;
 }
 .price{
-    width: 55px;
+    width: 65px;
     font-family: Roboto;
     color:  #333333;
     font-size: 18px;/* Approximation due to font substitution */
@@ -490,6 +502,23 @@ p.about a{
 
 
 }
+ul.vertmenu{
+    margin-top: 38px;
+    margin-bottom: 98px;
+}
+
+ul.vertmenu li{
+    display: inline-block;
+    clear: both;
+}
+ul.vertmenu li a{
+    text-decoration: none;
+    font-family: Roboto;
+    color:  #989898;
+    font-size: 12px;/* Approximation due to font substitution */
+    font-weight: 400;
+    text-align: center;
+}
 
 li.new > .marker{
     background-image: url("../img/new.png");
@@ -515,7 +544,7 @@ li.hot > .marker{
 
 
 
-.content ul li{
+.content ul.goods li{
     display: block;
     float: left;
     height: 320px;
@@ -526,7 +555,7 @@ li.hot > .marker{
 }
 
 
-.content ul li:nth-child(3n+2){
+.content ul.goods li:nth-child(3n+2){
     margin-right: 30px;
     margin-left: 30px;
 }
@@ -583,6 +612,11 @@ li.hot > .marker{
     margin-top: -20px;
     background-color:  #26d2fc;
 }
+
+.reg .lmenu{
+    margin-top: 0;
+}
+
 .lmenu li{
     list-style: none;
     text-transform: uppercase;
