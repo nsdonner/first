@@ -9,6 +9,7 @@
     width: 1500px;
     margin: 0 auto;
     background-color: #f9f9f9;
+
 }
 
 .header {
@@ -157,6 +158,10 @@
     width: 1500px;
     height: 301px;
     }
+
+.reg .fsocial{
+    height: 150px;
+}
 
 .fsocial{
     clear: both;
@@ -502,6 +507,10 @@ p.about a{
 
 
 }
+
+.prod ul.vertmenu{
+    margin-bottom: 53px;
+}
 ul.vertmenu{
     margin-top: 38px;
     margin-bottom: 98px;
@@ -560,11 +569,156 @@ li.hot > .marker{
     margin-left: 30px;
 }
 
+.content h1{
+    font-family: Raleway;
+    color:  #333333;
+    font-size: 30px;/* Approximation due to font substitution */
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    /*margin-left: 25px;*/
+    margin-bottom: 34px;
+}
+
+
+.sfoto ul{
+    clear: both;
+    margin-top: 24px;
+
+}
+
+.sfoto ul li img{
+    width: 70px;
+    height: 110px;
+
+}
+
+.sfoto ul li{
+    list-style-type: none;
+    display: block;
+    float: left;
+    margin-left: 30px;
+}
+.descrtext{
+    padding-top: 42px;
+}
+.descrtxt{
+    width: 871px;
+    height: 269px;
+    border: 1px solid rgba(51, 51, 51, 0.1);
+    padding: 12px 23px 23px 12px;
+
+    font-family: Verdana;
+    color: #808080;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 100px;
+
+}
+.descrlabel {
+    clear: both;
+    background-color: #26d2fc;
+    width: 160px;
+    height: 35px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    color: #333333;
+    font-size: 10.91px; /* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 35px;
+    transform: scaleY(1.1); /* width and height properties ommitted due to transform */
+    text-align: center;
+}
+
+.photo{
+    border-style: solid;
+    border-width: 2px;
+    border-color:  #eeeeee;
+    background-color:  #eaeaea;
+    width: 370px;
+    height: 370px;
+    margin-right: 46px;
+    float: left;
+}
+.photo img{
+    width: 370px;
+    height: 370px;
+    margin: 0;
+}
 
 
 
+.descrfototxt hr{
+    height: 1px;
+    border: 0;
+    color: #f00;
+    background: rgba(51, 51, 51, 0.1);
+    width: 90%;
+    margin: 0 5% 0 5%;
+
+}
 
 
+.descrfototxt{
+    width: 420px;
+    height: 370px;
+    float: left;
+}
+
+.add a{
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 15.99px; /* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 48px; /* Approximation due to font substitution */
+    text-align: center;
+    transform: scaleY(1.0008); /* width and height properties ommitted due to transform */
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    width: 130px;
+    height: 48px;
+    background-color: #fb4d01;
+    margin-left: 150px;
+    margin-top: 20px;
+
+
+}
+
+p.name{
+    font-family:  Roboto;
+    color:  #353535;
+    font-size:  21px;/* Approximation due to font substitution */
+    font-weight:  700;
+    text-align:  left;
+    text-transform: uppercase;
+    margin-bottom: 53px;
+
+}
+
+p.qo{
+    font-family:  Roboto;
+    color:  #707070;
+    font-size:  12px;/* Approximation due to font substitution */
+    font-weight:  400;
+    line-height:  16px;/* Approximation due to font substitution */
+    text-align:  left;
+
+
+}
+p.cost{
+    font-family:  Roboto;
+    color:  #111111;
+    font-size:  21.99px;/* Approximation due to font substitution */
+    font-weight:  100;
+    font-style:  italic;
+    text-align:  left;
+    margin-bottom: 27px;
+
+}
 
 .content h2{
     font-family:  Roboto;
@@ -577,6 +731,27 @@ li.hot > .marker{
     line-height: 78px;
     text-transform: uppercase;
 }
+
+.body{
+    position: relative;
+
+}
+/*.test {
+
+    background-color:  #e0e0e0;
+    width: 270px;
+    height: 171px;
+    margin-left: 165px;
+    margin-top: 30px;
+    padding-top: 129px;
+
+
+}*/
+
+.reg .adv{
+    bottom: 180px;
+}
+
 .adv {
 
     background-color:  #e0e0e0;
@@ -585,6 +760,8 @@ li.hot > .marker{
     margin-left: 165px;
     margin-top: 30px;
     padding-top: 129px;
+    position:absolute;
+    bottom: 690px;
 }
 
 .adv p{
@@ -603,6 +780,8 @@ li.hot > .marker{
 
 .lcont{
     float: left;
+    min-height: 900px;
+
 }
 
 .lmenu{
