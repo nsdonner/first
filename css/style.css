@@ -1,14 +1,18 @@
-
+html, body {
+    height: 100%;
+}
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 .cont {
     width: 1500px;
     margin: 0 auto;
     background-color: #f9f9f9;
+    height: 100%;
+    min-height: 100%;
 
 }
 
@@ -54,9 +58,13 @@
 }
 
 .footer {
+    clear: both;
+    margin: 0 auto;
     background-color: #333333;
     height: 348px;
     width: 1500px;
+    margin-top: -348px;
+
 }
 .welcome{
     height: 218px;
@@ -87,7 +95,7 @@
     margin-top: 24px;
     font-size: 18px; /* Approximation due to font substitution */
     font-weight: 700;
-    line-height: 14px; /* Approximation due to font substitution */
+    line-height: 16px; /* Approximation due to font substitution */
     text-align: left;}
 
 
@@ -169,6 +177,11 @@
     width: 1170px;
     height: 500px;
     background-color: #eaeaea;
+}
+.fcont{
+    background-color: #f9f9f9;
+    width: 1500px;
+    margin: 0 auto;
 }
 
 .insta{
@@ -253,12 +266,21 @@
 }
 
 
-.picul li{
-    list-style-type:none;
+.picul li {
+    list-style-type: none;
     display: inline-block;
     margin-left: 8px;
-    
 }
+
+.picul li img{
+    opacity: 0.5;
+}
+
+.picul li img:hover{
+    opacity: 1;
+}
+
+
 .picul li:first-child{
     margin-left: 0;
 }
@@ -373,6 +395,7 @@ input[type=email]{
 }
 input[type=submit]{
     background-color:  #000000;
+    cursor: pointer;
     width: 71px;
     height: 30px;
     border: none;
@@ -394,6 +417,7 @@ input[type=submit]{
     margin-left: 46px;
     margin-top: 75px;
     width: 232px;
+    min-height: 170px;
 
 }
 
@@ -422,6 +446,7 @@ p.about{
     font-weight: 400;
     line-height: 23.4px;/* Approximation due to font substitution */
     text-align: left;
+
 }
 p.about a{
     color: #fff51f;
@@ -528,6 +553,7 @@ ul.vertmenu li a{
     font-weight: 400;
     text-align: center;
 }
+/*
 
 li.new > .marker{
     background-image: url("../img/new.png");
@@ -548,9 +574,56 @@ li.hot > .marker{
     top: -250px;
     right: -225px;
 }
+*/
 
 
+.prormonew{
+    width: 0;
+    height: 0;
+    border-top: 46px solid #e24602;
+    border-left: 46px solid transparent;
+    position: relative;
+    top: -250px;
+    right: -225px;
 
+    }
+
+.prormohot{
+    width: 0;
+    height: 0;
+    border-top: 46px solid #faef03;
+    border-left: 46px solid transparent;
+    position: relative;
+    top: -250px;
+    right: -225px;
+
+}
+
+.promonewtext{
+    height: 46px;
+    width: 46px;
+    position: relative;
+    top: -333px;
+    right: -246px;
+    font-family: Roboto;
+    color:  #ffffff;
+    font-size: 12px;/* Approximation due to font substitution */
+    font-weight: 400;
+    text-align: left;
+}
+
+.promohottext{
+    height: 46px;
+    width: 46px;
+    position: relative;
+    top: -333px;
+    right: -248px;
+    font-family: Roboto;
+    color:  black;
+    font-size: 12px;/* Approximation due to font substitution */
+    font-weight: 800;
+    text-align: left;
+}
 
 
 .content ul.goods li{
@@ -561,8 +634,12 @@ li.hot > .marker{
     background-color: white;
     margin-bottom: 30px;
 
+
 }
 
+.content ul.goods li:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
 
 .content ul.goods li:nth-child(3n+2){
     margin-right: 30px;
@@ -734,6 +811,8 @@ p.cost{
 
 .body{
     position: relative;
+    min-height: 100%;
+    height: 100%;
 
 }
 /*.test {
@@ -749,7 +828,7 @@ p.cost{
 }*/
 
 .reg .adv{
-    bottom: 180px;
+    bottom: 0;
 }
 
 .adv {
@@ -761,7 +840,7 @@ p.cost{
     margin-top: 30px;
     padding-top: 129px;
     position:absolute;
-    bottom: 690px;
+    bottom:0;
 }
 
 .adv p{
@@ -778,9 +857,11 @@ p.cost{
     margin-left: 142px;
 }
 
-.lcont{
+div.lcont{
+    clear: both;
     float: left;
     min-height: 900px;
+    height: 100%;
 
 }
 
@@ -790,6 +871,7 @@ p.cost{
     margin-left: 165px;
     margin-top: -20px;
     background-color:  #26d2fc;
+    min-height: 475px;
 }
 
 .reg .lmenu{
