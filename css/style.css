@@ -9,7 +9,8 @@ html, body {
 
 .cont {
     clear: both;
-    width: 1500px;
+    width: 100%;
+    min-width: 1190px;
     margin: 0 auto;
     background-color: #f9f9f9;
 
@@ -19,13 +20,14 @@ html, body {
 
 .header {
     height: 700px;
-    width: 1500px;
+    width: 100%;
     background-color: #abeafa;
+    min-width: 1100px;
 }
 
 .reg .header{
     height: 350px;
-    width: 1500px;
+    width: 100%;
     background-color: #abeafa;
 }
 
@@ -63,7 +65,7 @@ html, body {
     margin: 0 auto;
     background-color: #333333;
     height: 348px;
-    width: 1500px;
+    width: 100%;
     margin-top: -348px;
 
 }
@@ -161,10 +163,20 @@ html, body {
     background-color: #bbb11e;
 }
 
+.menucenter{
+    clear: both;
+   width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+
+}
+
+
 
 .menu{
+
     background-color: #373737 ;
-    width: 1500px;
+    width: 100%px;
     height: 301px;
     }
 
@@ -181,7 +193,7 @@ html, body {
 }
 .fcont{
     background-color: #f9f9f9;
-    width: 1500px;
+    width: 100%;
     margin: 0 auto;
     clear: both;
 }
@@ -233,10 +245,6 @@ html, body {
 }
 
 
-.cbody{
-    clear: both;
-    min-height: 100%;
-}
 
 
 .sp1{
@@ -295,7 +303,7 @@ html, body {
 }
 
 .copy{
-    width: 1500px;
+    width: 1200px;
     height: 47px;
     display: table-cell;
     vertical-align: middle;
@@ -308,7 +316,7 @@ html, body {
     font-weight: 400;
     line-height: 21px;
     text-align: left;
-    margin-left: 171px;
+    /*margin-left: 171px;*/
 }
 .focial {
     margin-left: 548px;
@@ -325,6 +333,7 @@ html, body {
     font-weight: 400;
     line-height: 18px;
     text-align: left;
+    margin: 0 auto;
 
 }
 
@@ -339,7 +348,7 @@ html, body {
 ul.ffirst{
     display: block;
     float: left;
-    margin-left: 192px;
+   margin-left: 0;
     margin-top: 75px;
 }
 
@@ -484,11 +493,153 @@ p.about a{
 
 .content {
     width: 870px;
+
     margin-left: 30px;
     margin-top: -20px;
     background-color:  #f8f8f8;
     float: left;
+    min-width: 580px;
+    }
+
+@media screen and (min-width: 2210px) {
+    .content {
+        width: 1750px;
+    }
+
+    .content ul.goods li:nth-child(6n){
+        margin-right: 0;
+    }
 }
+
+
+@media screen and (min-width: 1950px) and (max-width: 2210px){
+    .content {
+        width: 1450px;
+    }
+
+    .content ul.goods li:nth-child(5n){
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 1650px) and (max-width: 1950px){
+    .content {
+        width: 1160px;
+    }
+
+    .content ul.goods li:nth-child(4n){
+        margin-right: 0;
+    }
+}
+
+
+@media screen and (min-width: 1350px) and (max-width: 1650px){
+    .content {
+        width: 870px;
+    }
+
+    .content ul.goods li:nth-child(3n){
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1350px) {
+    .content {
+        width: 580px;
+    }
+
+    .content ul.goods li:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    .menucenter {
+        width: 800px;
+
+    }
+
+    ul.fsecond, ul.fthird, .ffouth, .ffifth{
+        margin-left: 10px;
+    }
+
+    .menu {
+        height: 600px;
+    }
+
+    .copy {
+        width: 800px;
+    }
+
+    .focial {
+        margin-left: 150px;
+        letter-spacing: 6px;
+
+    }
+
+    .footer{
+        height: 650px;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 1100px) {
+    .content {
+        width: 280px;
+    }
+
+    .content ul.goods li:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    ul.fsecond, ul.fthird, .ffouth, .ffifth{
+        margin-left: 10px;
+    }
+
+    .menucenter {
+        width: 800px;
+    }
+
+    .menu {
+        height: 600px;
+    }
+
+    .copy {
+        width: 800px;
+    }
+
+    .focial {
+        margin-left: 150px;
+        letter-spacing: 6px;
+
+    }
+
+    .footer{
+        height: 650px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.content ul.goods li {
+    margin-right: 25px;
+    margin-left: 0;
+}
+
+
 .content > div{
     clear: both;
 }
@@ -633,10 +784,6 @@ ul.vertmenu li a{
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-.content ul.goods li:nth-child(3n+2){
-    margin-right: 30px;
-    margin-left: 30px;
-}
 
 .content h1{
     font-family: Raleway;
